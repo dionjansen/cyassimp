@@ -18,4 +18,4 @@ build
 *.iml
 # ignore dist builds
 dist
-
+.python-version
