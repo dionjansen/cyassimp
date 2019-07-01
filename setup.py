@@ -113,6 +113,6 @@ setup(name='cyassimp',
       ext_modules=extensions,
       packages=find_packages(),
       package_data={'cyassimp': ['*.pyx', 'cpp/*.h']},
-      setup_requires=['numpy>=1.8.0'],
-      install_requires=['numpy>=1.8.0']
+      setup_requires=['numpy==1.15.4'],
+      install_requires=['numpy==1.15.4']
       )
